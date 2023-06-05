@@ -71,8 +71,8 @@ console.log(words)
 */
 const arr=[]
 
-for(let i = 0;i<100;i ++){
-  if(i%2===0){
+for(let i = 0;i<15;i ++){
+  if(i%2!==0){
   arr.push(Math.floor(Math.random()*99))
  }
 }
